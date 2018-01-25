@@ -7,7 +7,7 @@ class Car {
     private $model;
     
     public function __construct() {
-        echo("Made a new car</br>");
+        echo("Made a new car\n");
     }
     
     public function setMake($m) {

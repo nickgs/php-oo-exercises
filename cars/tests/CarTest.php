@@ -7,7 +7,7 @@ use Vehicles\Car;
 
 final class CarTest extends TestCase {
     
-    public function testCarCanbeBuild() {
+    public function testCarCanBeBuilt() {
         // Instantiate a new car.
         $c = new Car();
         
