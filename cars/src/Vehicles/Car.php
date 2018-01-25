@@ -2,7 +2,7 @@
 
 namespace Vehicles;
 
-class Car {
+class Car implements CarInterface {
     private $make;
     private $model;
     
@@ -13,6 +13,10 @@ class Car {
     public function setMake($m) {
         $this->make = $m;
     }
+    public function getMake() {
+        return $this->make;
+    }
+    
     
     public function setModel($m) {
         $this->model = $m;
